@@ -1,5 +1,10 @@
 body{
-    background-color: rgb(209, 99, 35);
-    color: rgb(0, 0, 0);
+    background: #b8b8b8;
+    color: white;
     font-size: 20px;
+    background-image: url(/assets/img/logoBlanco.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
 }   
