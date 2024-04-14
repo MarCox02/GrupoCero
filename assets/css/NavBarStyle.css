@@ -7,13 +7,16 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+body {
+  background: #f0faff;
+}
 .nav {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   padding: 15px 200px;
-  background: #efcf04;
+  background: #ffcc00;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 .nav,
@@ -25,10 +28,8 @@
   justify-content: space-between;
 }
 a {
-  color: #ffffff;
+  color: #353842;
   text-decoration: none;
-  size: 20px;
-  font-family: Helvatica;
 }
 .nav .logo {
   font-size: 22px;

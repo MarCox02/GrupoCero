@@ -4,71 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grupo Cero</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles2.css">
     <link rel="stylesheet" href="./assets/css/NavBarStyle.css">
-    <link rel="stylesheet" href="./assets/css/Styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html"><img src="./assets/img/logoBlanco.png" alt="Logo" style="width: 200px;"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
-                    </li>
-                </ul>
+    <header>
+        <nav class="nav">
+            <i class="uil uil-bars navOpenBtn"></i>
+            <a href="./index.html" class="logo"><img src="./assets/img/logoBlanco.png"></a>
+          
+            <ul class="nav-links">
+              <i class="uil uil-times navCloseBtn"></i>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          
+            <i class="uil uil-search search-icon" id="searchIcon"></i>
+            <div class="search-box">
+              <i class="uil uil-search search-icon"></i>
+              <input type="text" placeholder="Search here..." />
             </div>
+          </nav>
+    </header>
+
+    <!-- Separate navigation from carousel -->
+    <div class="container-fluid bg-white">
+        <div class="container">
+            <h2 class="centrar">ONG- AYUDA A UN PELUDO</h2>
+            <p class="centrar AdB">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iusto corrupti perferendis maxime vitae rerum consequatur provident, tempore quibusdam illo eum earum. Voluptate commodi non excepturi. Voluptatum natus quisquam similique. </p>
         </div>
-    </nav>
-        
-    <div class="container">
-        <div id="My Carousel carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
+    </div>
+
+    <!-- Bootstrap container for carousel -->
+    <div class="container mt-5">
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="./assets/img/AmbassadorsCarousel.png" class="d-block w-100 img-fluid" alt="Ambassador Img">
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="./assets/img/NightmareCarousel.png" class="d-block w-100 img-fluid" alt="Nightmare img">
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
+                <div class="carousel-item active">
+                    <a href="./Galeria/Stanczyk.html">
+                        <img src="./assets/img/Stańczykcarousel.jpg" class="d-block w-100" alt="Slide Stańczyk">
+                    </a>
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/img/Stańczykcarousel.jpg" class="d-block w-100 img-fluid" alt=".Stanczyk img">
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
+                    <a href="##">
+                        <img src="./assets/img/NightmareCarousel.png" class="d-block w-100" alt="Slide Nightmare">
+                    </a>
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/img/opheliacarousel.png" class="d-block w-100 img-fluid" alt="ophelia img">
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
+                    <a href="##"> 
+                        <img src="./assets/img/opheliacarousel.png" class="d-block w-100" alt="Slide Ophelia">
+                    </a>
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/img/Terriblecarousel.png" class="d-block w-100 img-fluid" alt="TheTerrible Img">
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
+                    <a href="##"> 
+                        <img src="./assets/img/Terriblecarousel.png" class="d-block w-100" alt="Slide TheTerrible">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="##"> 
+                        <img src="./assets/img/AmbassadorsCarousel.png" class="d-block w-100" alt="Slide Ambassadors">
+                    </a>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
@@ -80,10 +79,11 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-    </div>
+    </div>>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-wHz9j+/LUNBKc1Ff+2mIDCf5kDkIpuFO0BVmpDxMrry0zTPFYwHKIhDf7r6Y6us7" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-lhia+3GuW6+Jr/Z4fqIh3a5erlNXTF/Z3kO7sPzkTb7u7V9RDnpAwtGCD7f3KUEd" crossorigin="anonymous"></script>
+    <!-- Bootstrap JavaScript and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
     <script src="./assets/js/JavaScript.js"></script>
 </body>
 </html>
