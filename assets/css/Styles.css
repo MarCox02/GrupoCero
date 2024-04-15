@@ -26,6 +26,10 @@ header {
 body{
   background-color: #fff2b6;
 }
+
+.row{
+  align-items: center;
+}
 /*Boton trampa*/
 .custom-button {
 color: white !important;
@@ -41,7 +45,8 @@ transition: none !important;
   flex-direction: column;
   position: relative;
   margin-bottom: 20px;
-  
+  margin-left: 75px;
+  margin-right: 75px;
 }
 .card img {
   /* Ensure images inside cards fill the entire card */
@@ -51,6 +56,7 @@ transition: none !important;
 }
 .card-container {
   background-color: #ffaf1b;
+  justify-content: space-around;
 }
 .Link-carta{
   font-size: 20px;
