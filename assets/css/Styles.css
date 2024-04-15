@@ -1,0 +1,28 @@
+.painting {
+    display: block;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
+}
+
+.description {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: serif;
+    text-align: center;
+}
+
+.btnComprar {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(45, 91, 218);
+    color: white;
+}
+.btnComprar:hover {
+    background-color: rgb(124, 142, 192);
+}
