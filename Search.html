@@ -15,15 +15,29 @@
                 <h1 class="title">Grupo Cero</h1>
                 <div class="nav-links">
                     <a href="./Index.html">Home</a>
-                    <a href="./About.html">About</a>
+                    <a href="./About.html">Nosotros</a>
                     <a href="./Gallery.html">Galleria</a>
                     <a href="./Search.html">Busqueda</a>
-                    <a href="./Shop.html" class="disabled"><p>Shop</p></a>
+                    <a href="./Shop.html">Tienda</a>
                 </div>
             </nav>  
         </div>
     </header>
     <div class="container card-container">
+        <div class="search-container">
+            <h2>Search</h2>
+            <form action="#" method="get">
+                <input type="text" name="search_name" placeholder="Nombre De Pieza">
+                <select name="search_tags">
+                    <option value="">Busqueda por Generos</option>
+                    <option value="tag1">Post-Moderno</option>
+                    <option value="tag2">Contemporaneo</option>
+                    <option value="tag3">Renacentista</option>
+                </select>
+                <input type="text" name="search_styles" placeholder="Nombre de artista">
+                <input type="submit" value="Search">
+            </form>
+        </div>
     </div>
     <!-- Bootstrap JavaScript and dependencies -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
