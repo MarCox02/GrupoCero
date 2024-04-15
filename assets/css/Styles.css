@@ -1,28 +1,122 @@
-.painting {
-    display: block;
-    margin-top: 15%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    height: 30%;
+* {
+  font-family: "Poppins", sans-serif;
+}
+/*Encabezado de la pagina*/
+header {
+  background-color: #ffcc00;
+  padding: 1px 0px;
+  font-family: 'Lucida Sans';
+  font-size: larger;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  max-width: 200px;
+}
+.title {
+  flex-grow: 1; /* Allow title to expand and occupy available space */
+  max-width: 90%;
+  margin: 0 auto;
+  color: #ffffff;
+}
+/*Atributos del Cuerpo*/
+body{
+  background-color: #fff2b6;
 }
 
-.description {
-    margin-left: 10%;
-    margin-right: 10%;
-    font-family: serif;
-    text-align: center;
+.row{
+  align-items: center;
+}
+/*Boton trampa*/
+.custom-button {
+color: white !important;
+text-decoration: none !important;
+text-transform: none !important;
+transition: none !important;
+}
+/*Cartas bootstrap*/
+.card {
+  /* Set a fixed height for the card */
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 20px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+.card img {
+  /* Ensure images inside cards fill the entire card */
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Maintain aspect ratio while covering the entire area */
+}
+.card-container {
+  background-color: #ffaf1b;
+  justify-content: space-around;
+}
+.Link-carta{
+  font-size: 20px;
+}
+.Link-carta a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  display: inline-block;
+}
+.Link-carta a:hover {
+  color: rgb(0, 0, 0);
+  transition: 350ms;
 }
 
-.btnComprar {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    padding: 10px;
-    text-align: center;
-    background-color: rgb(45, 91, 218);
-    color: white;
+
+/*Links del navbar*/
+
+
+.nav-links {
+  margin-right: auto; /* Push the links to the right */
 }
-.btnComprar:hover {
-    background-color: rgb(124, 142, 192);
+.nav-links a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  display: inline-block;
+  position: relative;
+  margin-left: 10px;
+  justify-content: left;
+}
+.nav-links a:hover {
+color: rgb(255, 255, 255);
+transition: 350ms;
+}
+.nav-links a::before {
+content: '';
+display: block; 
+height: 5px;
+width: 100%;
+background-color: rgb(255, 255, 255);
+transition: 3;
+
+position: absolute;
+bottom: 0;
+width: 0%;
+transition: 300ms;
+}
+.nav-links a:hover::before {
+width: 100%;
+}
+.nav-links {
+display: inline-block;
+margin-left: 60px;
+padding-top: 60px;
+padding-bottom: 10px;
+position: relative;
+}
+.nav-links :disabled{
+  color: #b4b4b4;
 }
